@@ -10,10 +10,14 @@ laRogueApp.config(function($routeProvider, $locationProvider) {
         templateUrl: 'partials/home.html',
         controller: 'HomeCtrl'
       }).
+      when('/hello', {
+        templateUrl: 'partials/hello.html',
+        controller: 'HelloCtrl'
+      }).
       otherwise({
         redirectTo: '/'
       });
 
     // use the HTML5 History API
-    //$locationProvider.html5Mode(true);
+    $locationProvider.html5Mode(true);
 })

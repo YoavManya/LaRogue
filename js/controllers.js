@@ -6,6 +6,10 @@
 
 var laRogueControllers = angular.module('laRogueControllers', []);
 
-laRogueControllers.controller('HomeCtrl', function() {
+laRogueControllers.controller('HomeCtrl',  ['$scope', function($scope) {
+	$scope.hello = "hello world";
+}]);
 
-});
+laRogueControllers.controller('HelloCtrl',  ['$scope', function($scope) {
+	$scope.hello = "Hola Mundo";
+}]);
