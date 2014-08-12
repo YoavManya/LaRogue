@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="587px" height="785.333px" viewBox="0 0 587 785.333" enable-background="new 0 0 587 785.333" xml:space="preserve">
+<g>
+	<path fill="#59595B" d="M586,0.37H0v785h434.665c0,0,218.963-109.889,124.172-368.631C474.213,208.61,545.62,60.688,586,0.37z"/>
+	<g>
+		<defs>
+			<path id="SVGID_1_" d="M586,0.333L0,0.37v785l434.665-0.037c0,0,218.963-109.889,124.172-368.631
+				C474.213,208.574,545.62,60.651,586,0.333z"/>
+		</defs>
+		<clipPath id="SVGID_2_">
+			<use xlink:href="#SVGID_1_"  overflow="visible"/>
+		</clipPath>
+		<g clip-path="url(#SVGID_2_)">
+			
+				<image overflow="visible" width="586" height="412" xlink:href="C:\Users\usuario\Documents\Alexis Espinoza\Julio\Le Rouge\Final\LE ROUGe final\mapa.jpg"  transform="matrix(1 0 0 1 0 373.3701)">
+			</image>
+		</g>
+		<g transform="matrix(1 0 0 1 0 -1.592650e-008)" clip-path="url(#SVGID_2_)">
+			<image overflow="visible" width="587" height="373" xlink:href="46F1EE08.jpg"  transform="matrix(0.9999 0 0 0.9999 0 0.3701)">
+			</image>
+		</g>
+	</g>
+	<path fill="#FFFFFF" d="M560.171,416.704c-84.624-208.13-13.217-356.053,27.163-416.37h-6.904
+		c-40.38,60.317-111.787,208.24-27.163,416.37c94.791,258.742-124.172,368.631-124.172,368.631h6.904
+		C435.999,785.334,654.962,675.446,560.171,416.704z"/>
+</g>
+</svg>
