@@ -10,10 +10,6 @@ laRogueApp.config(function($routeProvider, $locationProvider) {
         templateUrl: 'partials/home.html',
         controller: 'HomeCtrl'
       }).
-      when('/hello', {
-        templateUrl: 'partials/hello.html',
-        controller: 'HelloCtrl'
-      }).
       otherwise({
         redirectTo: '/'
       });
