@@ -164,7 +164,17 @@
     display: inline-block;
 }
 
-.itemHover {
+.shopping-list .shopping-item {
+    display: inline-block;
+    width: 22%;
+    margin: 1%;
+}
+
+.shopping-item a {
+    color: #fff;
+}
+
+.shopping-link:hover .itemHover {
     border-bottom: 1px solid green;
     padding-bottom: 14px;
 }
@@ -183,8 +193,8 @@
 }
 
 .btn-larouge {
-	height:48px;
-	width: 130px;
+    font-size: 20px;
+    padding: 9px 36px;
 	border-radius: 5px;
 	background-color: #712e7d;
 	color: #fff!important;
@@ -194,13 +204,6 @@
 .btn-larouge:hover {
 	background-color: #7e9b26;
 	box-shadow: 0 6px 0 #485a1c;
-}
-
-.btn-larouge.btn-big, btn-larouge-reverse.btn-big {
-	width: 230px;
-}
-.btn-larouge.btn-huge, btn-larouge-reverse.btn-huge {
-	width: 320px;
 }
 
 .btn-larouge-reverse {
@@ -310,26 +313,34 @@
     height: 785px;
 }
 
+.angular-google-map-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
 
 /*web font*/
 
 @font-face {
     font-family: 'HelveticaNeueLTStd45Light';
-    src: url('webfont/helveticaneueltstd-lt.eot');
-    src: url('webfont/helveticaneueltstd-lt.eot') format('embedded-opentype'),
-         url('webfont/helveticaneueltstd-lt.woff') format('woff'),
-         url('webfont/helveticaneueltstd-lt.ttf') format('truetype'),
-         url('webfont/helveticaneueltstd-lt.svg#HelveticaNeueLTStd45Light') format('svg');
+    src: url('../fonts/helveticaneueltstd-lt.eot');
+    src: url('../fonts/helveticaneueltstd-lt.eot') format('embedded-opentype'),
+         url('../fonts/helveticaneueltstd-lt.woff') format('woff'),
+         url('../fonts/helveticaneueltstd-lt.ttf') format('truetype'),
+         url('../fonts/helveticaneueltstd-lt.svg#HelveticaNeueLTStd45Light') format('svg');
 }
 
 
 @font-face {
     font-family: 'HelveticaNeueLTStd35Thin';
-    src: url('webfont/helveticaneueltstd-th.eot');
-    src: url('webfont/helveticaneueltstd-th.eot') format('embedded-opentype'),
-         url('webfont/helveticaneueltstd-th.woff') format('woff'),
-         url('webfont/helveticaneueltstd-th.ttf') format('truetype'),
-         url('webfont/helveticaneueltstd-th.svg#HelveticaNeueLTStd35Thin') format('svg');
+    src: url('../fonts/helveticaneueltstd-th.eot');
+    src: url('../fonts/helveticaneueltstd-th.eot') format('embedded-opentype'),
+         url('../fonts/helveticaneueltstd-th.woff') format('woff'),
+         url('../fonts/helveticaneueltstd-th.ttf') format('truetype'),
+         url('../fonts/helveticaneueltstd-th.svg#HelveticaNeueLTStd35Thin') format('svg');
 }
 
 

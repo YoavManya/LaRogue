@@ -4,4 +4,11 @@
  * and open the template in the editor.
  */
 
+var laRogueDirectives = angular.module("laRogueDirectives", []);
 
+laRogueDirectives.directive('menuHeader', function() {
+	return {
+		restrict: "E",
+		templateUrl: 'partials/menu-header.html'
+	};
+});

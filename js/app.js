@@ -1,7 +1,9 @@
 /* App Module */    
 var laRogueApp = angular.module('larogue', [
 	    'ngRoute',
-	    'laRogueControllers'
+      'google-maps',
+	    'laRogueControllers',
+      'laRogueDirectives'
 	]);
 
 laRogueApp.config(function($routeProvider, $locationProvider) {

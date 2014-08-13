@@ -1,11 +1,8 @@
-
-
 <section id="page1">
-   <div class="menu-wrapper">
-       
+    <div class="menu-wrapper">
+       <menu-header></menu-header>
     </div>
 </section>
-<a href="/hello">how about {{hello}}</a>  
 <section id="page2">
     <div class="container text-center">
         <div class="row">	
@@ -39,175 +36,51 @@
         <div class="row">	
             <h1>Lorem ipsum dolor sit amet</h1>
         </div>
-        <div class="row" ng-init="highlightItem = false">
-            <div class="col-md-3" ng-mouseenter="highlightItem1 = true" ng-mouseleave="highlightItem1 = false">
-                <a href="javascript:void(0)">
-                    <svg version="1.1" id="Capa_12" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                         width="115px" height="150px" viewBox="0 0 152.8 201" style="enable-background:new 0 0 152.8 201;" xml:space="preserve">
-                    <path style="fill:#FFFFFF;" d="M0,0v201h152.8V0H0z M143.7,26.4v55.5v92.3c0,9.2-6.9,16.7-15.3,16.7h-7.5H24.4H9.1v-16.7V26.4V9.7
-                          h15.3h35.4h61.1h7.5h15.3V26.4z"/>
-                    <g>
-                    <path style="fill:#FFFFFF;" d="M128.3,53.7H41.8c-0.9,0-1.7,0.8-1.7,1.7c0,0.9,0.8,1.7,1.7,1.7h86.6c0.9,0,1.7-0.8,1.7-1.7
-                          C130,54.4,129.3,53.7,128.3,53.7z"/>
-                    <path style="fill:#FFFFFF;" d="M27.2,50.3c-2.7,0-5,2.2-5,5c0,2.7,2.2,4.9,5,4.9c2.7,0,5-2.2,5-4.9C32.1,52.5,29.9,50.3,27.2,50.3z
-                          "/>
-                    <path style="fill:#FFFFFF;" d="M41,82.8h86.6c0.9,0,1.7-0.8,1.7-1.7s-0.8-1.7-1.7-1.7H41c-0.9,0-1.7,0.8-1.7,1.7S40.1,82.8,41,82.8
-                          z"/>
-                    <circle style="fill:#FFFFFF;" cx="26.5" cy="80.9" r="5"/>
-                    <path style="fill:#FFFFFF;" d="M41,106.4h86.6c0.9,0,1.7-0.8,1.7-1.7c0-0.9-0.8-1.7-1.7-1.7H41c-0.9,0-1.7,0.8-1.7,1.7
-                          C39.3,105.6,40.1,106.4,41,106.4z"/>
-                    <circle style="fill:#FFFFFF;" cx="26.5" cy="104.5" r="5"/>
-                    <path style="fill:#FFFFFF;" d="M127.7,124.9H41.2c-0.9,0-1.7,0.8-1.7,1.7c0,0.9,0.8,1.7,1.7,1.7h86.6c0.9,0,1.7-0.8,1.7-1.7
-                          C129.4,125.7,128.7,124.9,127.7,124.9z"/>
-                    <circle style="fill:#FFFFFF;" cx="26.6" cy="126.5" r="4.9"/>
-                    <path style="fill:#FFFFFF;" d="M127.7,148.7H41.2c-0.9,0-1.7,0.8-1.7,1.7c0,0.9,0.8,1.7,1.7,1.7h86.6c0.9,0,1.7-0.8,1.7-1.7
-                          C129.4,149.4,128.7,148.7,127.7,148.7z"/>
-                    <circle style="fill:#FFFFFF;" cx="26.6" cy="150.2" r="5"/>
-                    </g>
-                    </svg>
+        <div class="buffer"></div>
+        <ul class="list-unstyled shopping-list">
+            <li class="shopping-item">
+                <a href="javascript:void(0)" class="shopping-link">
+                    <img src="images/shopping-list.png" alt="shopping-list" class="shopping-image" />
+                    <h2 class="margin-bottom itemHover">Tips / Blogs</h2>
+                    <p class="margin-bottom">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nibh nulla, aliquet in sagittis et, aliquet id dolor.</p>
+                    <button type="button" class="btn btn-larouge">Ver mas</button>
                 </a>
-                <h2 class="margin-bottom" ng-class="{itemHover: highlightItem1}" >Tips / Blogs</h2>
-                <p class="margin-bottom">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nibh nulla, aliquet in sagittis et, aliquet id dolor.</p>
-                <button type="button" class="btn btn-larouge">Block level button</button>
-            </div>
+            </li>
+            <li class="shopping-item">
+                <a href="javascript:void(0)" class="shopping-link">
+                    <img src="images/shopping-iphone.png" alt="shopping-iphone" class="shopping-image" />
+                    <h2 class="margin-bottom itemHover">Reserva Online</h2>
+                    <p class="margin-bottom">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nibh nulla, aliquet in sagittis et, aliquet id dolor.</p>
+                    <a href="/" class="btn btn-larouge">Ver mas</a>
+                </a>
+            </li>
+            <li class="shopping-item">
+                <a href="javascript:void(0)" class="shopping-link">
+                    <img src="images/shopping-cart.png" alt="shopping-cart" class="shopping-image" />
+                    <h2 class="margin-bottom itemHover">Tienda</h2>
+                    <p class="margin-bottom">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nibh nulla, aliquet in sagittis et, aliquet id dolor.</p>
+                    <a href="/" class="btn btn-larouge">Ver mas</a>
+                </a>
+            </li>
+            <li class="shopping-item" >
+                <a href="javascript:void(0)" class="shopping-link">
+                    <img src="images/shopping-woman.png" alt="shopping-woman" class="shopping-image" />
+                    <h2 class="margin-bottom itemHover">Promociones</h2>
+                    <p class="margin-bottom">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nibh nulla, aliquet in sagittis et, aliquet id dolor.</p>
+                     <a href="/" class="btn btn-larouge">Ver mas</a>
+                </a>
+            </li>
+        </ul>
+<!--         <div class="row" ng-init="highlightItem = false">
             <div class="col-md-3" ng-mouseenter="highlightItem2=true" ng-mouseleave="highlightItem2=false">
                 <a href="javascript:void(0)">
-                    <svg version="1.1" id="Capa_12" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                         width="75px" height="150px" viewBox="0 0 96.7 196" style="enable-background:new 0 0 96.7 196;" xml:space="preserve">
-                    <g>
-                    <g>
-                    <path style="fill:#FFFFFF;" d="M84.6,4.9H12.1C5.4,4.9,0,10.3,0,17v166.9c0,6.6,5.4,12.1,12.1,12.1h72.5c6.7,0,12.1-5.4,12.1-12.1
-                          V17C96.7,10.3,91.3,4.9,84.6,4.9z M73.6,17.7c1.5,0,2.8,1.2,2.8,2.8c0,1.5-1.2,2.8-2.8,2.8s-2.8-1.2-2.8-2.8
-                          C70.8,19,72.1,17.7,73.6,17.7z M24.3,17.7h38.3c2.2,0,4,1.3,4,2.8c0,1.5-1.8,2.8-4,2.8H24.3c-2.2,0-4-1.3-4-2.8
-                          C20.3,19,22.1,17.7,24.3,17.7z M48.6,188.4c-5.5,0-9.9-4.4-9.9-9.9c0-5.5,4.4-9.9,9.9-9.9c5.5,0,9.9,4.4,9.9,9.9
-                          C58.5,184,54.1,188.4,48.6,188.4z M86.7,160.7H10.3V36.8h76.4V160.7z"/>
-                    </g>
-                    </g>
-                    <g>
-                    <g>
-                    <path style="fill:#FFFFFF;" d="M26,98.5c-0.5,0-0.9,0-1,0.1v3H26c1.1,0,1.8-0.6,1.8-1.5C27.9,98.9,27.1,98.5,26,98.5z M50.2,98.5
-                          c-0.5,0-0.9,0-1,0.1v3h1.1c1.1,0,1.8-0.6,1.8-1.5C52,98.9,51.3,98.5,50.2,98.5z M63.5,98.6L63.5,98.6c-0.1,0.5-0.3,1-0.4,1.5
-                          l-0.8,2.3h2.4l-0.8-2.3C63.8,99.6,63.6,99.1,63.5,98.6z M16.2,91.1v19.5h64V91.1H16.2z M28.1,105.8c-0.1-0.2-0.3-0.9-0.5-1.9
-                          c-0.2-1.1-0.7-1.5-1.6-1.6h-1v3.5h-1v-8c0.5-0.1,1.3-0.2,2-0.2c1.1,0,1.8,0.2,2.3,0.7c0.4,0.4,0.6,0.9,0.6,1.5
-                          c0,1.1-0.7,1.8-1.5,2.1v0c0.6,0.2,1,0.8,1.2,1.6c0.3,1.1,0.5,1.9,0.6,2.2H28.1z M34.9,105.8h-4.5v-8.1h4.4v0.9h-3.3v2.6h3.1v0.9
-                          h-3.1v2.9h3.5V105.8z M37.9,105.9c-0.8,0-1.6-0.2-2.1-0.5l0.3-0.9c0.5,0.3,1.2,0.5,1.9,0.5c1.1,0,1.7-0.6,1.7-1.4
-                          c0-0.8-0.4-1.2-1.5-1.6c-1.3-0.5-2.1-1.2-2.1-2.3c0-1.3,1-2.2,2.6-2.2c0.8,0,1.4,0.2,1.8,0.4l-0.3,0.9c-0.3-0.1-0.8-0.4-1.5-0.4
-                          c-1.1,0-1.5,0.7-1.5,1.2c0,0.8,0.5,1.1,1.6,1.6c1.4,0.5,2.1,1.2,2.1,2.4C40.8,104.8,39.8,105.9,37.9,105.9z M46.7,105.8h-4.5v-8.1
-                          h4.4v0.9h-3.3v2.6h3.1v0.9h-3.1v2.9h3.5V105.8z M52.3,105.8c-0.1-0.2-0.3-0.9-0.5-1.9c-0.2-1.1-0.7-1.5-1.6-1.6h-1v3.5h-1v-8
-                          c0.5-0.1,1.3-0.2,2-0.2c1.1,0,1.8,0.2,2.3,0.7c0.4,0.4,0.6,0.9,0.6,1.5c0,1.1-0.7,1.8-1.5,2.1v0c0.6,0.2,1,0.8,1.2,1.6
-                          c0.3,1.1,0.5,1.9,0.6,2.2H52.3z M56.5,105.8l-2.6-8.1H55l1.3,4c0.3,1.1,0.6,2.1,0.9,3h0c0.2-0.9,0.6-2,0.9-3l1.4-4h1.1l-2.9,8.1
-                          H56.5z M65.8,105.8l-0.9-2.5h-2.9l-0.8,2.5h-1.1l2.7-8.1h1.3l2.8,8.1H65.8z M72.3,105.8c-0.1-0.2-0.3-0.9-0.5-1.9
-                          c-0.2-1.1-0.7-1.5-1.6-1.6h-1v3.5h-1v-8c0.5-0.1,1.3-0.2,2-0.2c1.1,0,1.8,0.2,2.3,0.7c0.4,0.4,0.6,0.9,0.6,1.5
-                          c0,1.1-0.7,1.8-1.5,2.1v0c0.6,0.2,1,0.8,1.2,1.6c0.3,1.1,0.5,1.9,0.6,2.2H72.3z M70.2,98.5c-0.5,0-0.9,0-1,0.1v3h1.1
-                          c1.1,0,1.8-0.6,1.8-1.5C72,98.9,71.3,98.5,70.2,98.5z"/>
-                    </g>
-                    </g>
-                    </svg>
+
                 </a>
                 <h2 class="margin-bottom" ng-class="{itemHover: highlightItem2}">Reserva Online</h2>
                 <p class="margin-bottom">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nibh nulla, aliquet in sagittis et, aliquet id dolor.</p>
-                <button type="button" class="btn btn-larouge">Block level button</button>
+                <button type="button" class="btn btn-larouge">Ver mas</button>
             </div>
-            <div class="col-md-3" ng-mouseenter="highlightItem3=true" ng-mouseleave="highlightItem3=false"><a href="javascript:void(0)">
-                    <svg version="1.1" id="Capa_12" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                         width="230px" height="150px" viewBox="0 0 248.9 161.3" style="enable-background:new 0 0 248.9 161.3;" xml:space="preserve"
-                         >
-                    <g>
-                    <path style="fill:#FFFFFF;" d="M151.3,117.3H5.6c-2.5,0-4.6-2.1-4.6-4.6c0-2.5,2.1-4.6,4.6-4.6h145.7c5.3,0,11.8-4.2,13.9-9
-                          L203,14.5C206.6,6.4,216.4,0,225.3,0h19c2.5,0,4.6,2.1,4.6,4.6c0,2.5-2.1,4.6-4.6,4.6h-19c-5.3,0-11.8,4.2-13.9,9l-37.7,84.6
-                          C170,111,160.2,117.3,151.3,117.3z"/>
-                    </g>
-                    <circle style="fill:#FFFFFF;" cx="31.6" cy="143.4" r="17.9"/>
-                    <circle style="fill:#FFFFFF;" cx="133.5" cy="143.4" r="17.9"/>
-                    <g>
-                    <path style="fill:#FFFFFF;" d="M103.3,34.7c-5-4-8.6-9.5-10.2-15H71.6c-1.7,5.6-5.3,11.1-10.2,15c-0.6,0.5-1.2,0.9-1.8,1.3
-                          c-2.2,7-3.4,15.2-3.4,23.8c0,17.6,5.1,33,12.8,41.4h27c7.6-8.4,12.8-23.8,12.8-41.4c0-8.7-1.3-16.8-3.4-23.8
-                          C104.5,35.6,103.9,35.1,103.3,34.7z"/>
-                    <rect x="70.8" y="9.8" style="fill:#FFFFFF;" width="24" height="7.6"/>
-                    <g>
-                    <path style="fill:#FFFFFF;" d="M89.2,4c0-2.1-2.3-3.8-5-3.8h-3.5c-2.8,0-5,1.7-5,3.8c0,2.1,2.3,3.8,5,3.8h3.5
-                          C86.9,7.7,89.2,6,89.2,4z"/>
-                    </g>
-                    </g>
-                    <g>
-                    <g>
-                    <path style="fill:#FFFFFF;" d="M46.1,96.6c-0.1,2.7-2.5,5-5.3,5H22.6c-2.8,0-5.1-2.2-5.3-5l-1.3-25c-0.1-2.7,2-5,4.7-5h21.9
-                          c2.8,0,4.9,2.2,4.7,5L46.1,96.6z"/>
-                    </g>
-                    <rect x="18.8" y="59.3" style="fill:#FFFFFF;" width="25.9" height="4.8"/>
-                    <rect x="28.5" y="41.3" style="fill:#FFFFFF;" width="13.2" height="17.9"/>
-                    <polygon style="fill:#FFFFFF;" points="35.1,21.1 28.5,28.5 28.5,43.3 35.1,43.3 	"/>
-                    </g>
-                    <path style="fill:#FFFFFF;" d="M155,40.8C154.8,40.8,154.8,40.8,155,40.8c0.1,0-0.2-0.7-0.7-1.6l-9.1-14.4c-0.5-0.9-1-2.4-1-3.4
-                          v-1.1c0-0.1,0-0.1,0-0.2c0.6-0.3,0.9-0.9,0.9-1.6v-5.8c0-1-0.8-1.8-1.8-1.8h-12.5c-1,0-1.8,0.8-1.8,1.8v5.8c0,0.7,0.4,1.3,0.9,1.6
-                          c0,0.1,0,0.1,0,0.2v1.1c0,1-0.4,2.5-1,3.4l-9.1,14.4c-0.5,0.9-0.9,1.6-0.7,1.6c0.1,0,0.1,0,0,0c-0.1,0-0.3,0.8-0.3,1.9v56.9
-                          c0,1,0.8,1.8,1.8,1.8h32.8c1,0,1.8-0.8,1.8-1.8V42.6C155.2,41.6,155.1,40.8,155,40.8z"/>
-                    </svg>
-                </a>
-                <h2 class="margin-bottom" ng-class="{itemHover: highlightItem3}">Tienda</h2>
-                <p class="margin-bottom">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nibh nulla, aliquet in sagittis et, aliquet id dolor.</p>
-                <button type="button" class="btn btn-larouge">Block level button</button>
-            </div>
-            <div class="col-md-3" ng-mouseenter="highlightItem4=true" ng-mouseleave="highlightItem4=false">
-                <a href="javascript:void(0)">
-                    <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                         width="165px" height="150px" viewBox="0 0 183.4 168" style="enable-background:new 0 0 183.4 168;" xml:space="preserve">
-                    <font horiz-adv-x="2048">
-                    <!-- Copyright (c) 2011 by vernon adams. All rights reserved. -->
-                    <!-- Copyright: Copyright 2014 Adobe System Incorporated. All rights reserved. -->
-                    <font-face font-family="Oswald" units-per-em="2048" underline-position="-103" underline-thickness="102"/>
-                    <missing-glyph horiz-adv-x="748" d="M68,0l544,0l0,1365l-544,0M136,68l0,1229l408,0l0,-1229z"/>
-                    <glyph unicode="%" horiz-adv-x="1999" d="M444,541C704,541 811,761 811,1032C811,1305 709,1516 444,1516C178,1516 78,1307 78,1032C78,763 184,541 444,541M578,1032C578,914 561,735 444,735C329,735 311,914 311,1032C311,1152 324,1321 444,1321C564,1321 578,1154 578,1032M1554,0C1816,0 1921,220 1921,492C1921,765 1819,975 1554,975C1289,975 1188,766 1188,492C1188,223 1294,0 1554,0M1688,492C1688,374 1671,195 1554,195C1439,195 1421,375 1421,492C1421,611 1434,780 1554,780C1674,780 1688,613 1688,492M1034,1518l-283,-1518l220,0l282,1518z"/>
-                    </font>
-
-                    <g>
-                    <path style="fill:#FFFFFF;" d="M5.6,99.4c2-10.3,4-15,5.1-17.9c1.1-2.9,21.7,1.7,22.8,4.5c1.1,2.8,1.7,4.4,2.6,17.8
-                          C25.8,104,14,102,5.6,99.4z"/>
-                    <g>
-                    <path style="fill:#FFFFFF;" d="M148.2,32.3c-5.6-14.3-17.4-16-18.5-16.1c-0.4-1.3-4.7-12.4-23.2-15.8C86.7-3.2,62.8,10.3,52,35.3
-                          c-10.8,25,2.1,76.1,2.1,76.1s6.6-31.5,30.7-52c11.6-9.8,28-12.5,37.9-26.4c0,0,0,0.1,0,0.1s10.8,8.3,13.7,12.3
-                          c4.9,6.8,10.1,19.7,10.4,38.3C155.3,68.9,152.8,44.2,148.2,32.3z"/>
-                    <g>
-                    <path style="fill:#FFFFFF;" d="M140.2,110.2c0,0,3.1-1.9,3.3-4.5c0.5-5.8-2.5-15.2-2.5-15.2s-3.7,9.5-3.7,15.3
-                          C137.2,108.4,140.2,110.2,140.2,110.2z"/>
-                    </g>
-                    <g>
-                    <path style="fill:#FFFFFF;" d="M65.1,110.2c0,0,3.1-1.9,3.3-4.5c0.5-5.8-2.5-15.2-2.5-15.2s-3.7,9.5-3.7,15.3
-                          C62.1,108.4,65.1,110.2,65.1,110.2z"/>
-                    </g>
-                    <path style="fill:#FFFFFF;" d="M135.1,49.7c-2.9-4.8-7.5-8.5-11.9-12c-6.5,7.3-14.7,11.7-23.4,16.3c-10.4,5.5-19,12.6-25.8,22.3
-                          c-2.6,3.7-5.1,7.7-7.3,11.7c8,19.1,21.7,34.4,37.1,34.4c17.3,0,32.2-19.2,39.5-41.3C142.7,70.3,140.8,58.9,135.1,49.7z"/>
-                    <g>
-                    <path style="fill:#FFFFFF;" d="M103.2,154.3c3.9,0,18.3-10.2,22.2-23.8c-4.3-2.9-5.5-6-5.7-9.5c-5.6,3.9-11.2,5-16.1,5
-                          c-4.9,0-10.6-1.2-16.1-5.1c-0.2,3.7-1.5,6.9-6.4,9.9C85,144.2,99.3,154.3,103.2,154.3z"/>
-                    <g>
-                    <path style="fill:#FFFFFF;" d="M23.8,167.9c3.6,0,6.6,0,7.2,0c1.4,0,1.5-1.4,1.5-1.4s1-7.9,2.1-18C29.1,153,26,159.8,23.8,167.9
-                          z"/>
-                    <path style="fill:#FFFFFF;" d="M166,144.6c-9.5-3.7-20.7-6.2-32.8-10.4c-2.3-0.8-4.2-1.6-5.9-2.5c-4.4,14-19.1,24.9-24.2,24.9
-                          c-5.1,0-19.7-10.7-24.2-24.7c-1.5,0.7-3.1,1.4-5.1,2.1c-12.1,4.2-23.2,6.9-32.8,10.7c-1.2,0.5-2.3,1-3.3,1.6
-                          c-1.1,10.7-2.2,19.6-2.4,20.6c0,0.4-0.2,0.8-0.3,1.2h68.4h79.8C180.4,157,175.7,148.4,166,144.6z"/>
-                    </g>
-                    </g>
-                    </g>
-                    <path style="fill:#FFFFFF;" d="M8.1,156.4l4.3,3.6l0.2-5.6l5.4,1.5l-2.1-5.2l5.6-0.8l-4-3.9l4.8-3L17,141l3.1-4.7l-5.6,0.4l1-5.5
-                          l-5,2.6l-1.4-5.5l-3.5,4.4l-0.8-1c-0.5-6.1-0.8-12-0.8-16.7c0-4,0.4-8.1,0.9-11.8c8.4,2.5,19.9,4.4,30.1,4.4c0.5,0,1,0,1.5,0
-                          c0.2,2.3,0.4,4.8,0.4,7.2c0,17.8-4.5,51.5-4.5,51.5s-0.1,1.4-1.5,1.4s-19.5,0-20.9,0s-1.6-1.4-1.6-1.4S8,163,7.4,157.8L8.1,156.4z"
-                          />
-                    <text transform="matrix(1 0 0 1 9.179688e-002 150.124)" style="fill:#FFFFFF; font-family:'Oswald'; font-size:15.3425;">%</text>
-                    </g>
-                    <g>
-                    <path style="fill:#FFFFFF;" d="M8.1,156.4l4.3,3.6l0.2-5.6l5.4,1.5l-2.1-5.2l5.6-0.8l-4-3.9l4.8-3L17,141l3.1-4.7l-5.6,0.4l1-5.5
-                          l-5,2.6l-1.4-5.5l-3.5,4.4l-0.8-1c-0.5-6.1-0.8-12-0.8-16.7c0-4,0.4-8.1,0.9-11.8c8.4,2.5,19.9,4.4,30.1,4.4c0.5,0,1,0,1.5,0
-                          c0.2,2.3,0.4,4.8,0.4,7.2c0,17.8-4.5,51.5-4.5,51.5s-0.1,1.4-1.5,1.4s-19.5,0-20.9,0s-1.6-1.4-1.6-1.4S8,163,7.4,157.8L8.1,156.4z"
-                          />
-                    </g>
-                    </svg>
-                </a>
-                <h2 class="margin-bottom" ng-class="{itemHover: highlightItem4}">Promociones</h2>
-                <p class="margin-bottom">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nibh nulla, aliquet in sagittis et, aliquet id dolor.</p>
-                <button type="button" class="btn btn-larouge">Block level button</button>
-            </div>
-        </div>
+        </div> -->
     </div>
     <div class="buffer"></div>
 </section>
@@ -241,7 +114,12 @@
 </section>
 <section id="page5">
     <div class="map-wrapper">
-        <div id="map_canvas"></div> 
+        <div id="map_canvas">
+            <google-map center="map.center" zoom="map.zoom" draggable="true" options="options">
+                <marker coords="marker.coords" options="marker.options" events="marker.events" idkey="marker.id" >
+                </marker>
+            </google-map>
+        </div>
         <img src="images/map.png" alt="" class="map-link" />
         <h2 class="map-title">Ubicanos y se parte del cambio</h2>
         <p class="map-text">Estas buscando tener nueves experiencias para renovar tu estilo?</p>
